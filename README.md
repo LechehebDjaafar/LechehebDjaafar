@@ -1,4 +1,6 @@
-[![MasterHead](https://i.ibb.co/FsMp5NX/2000-600px.gif)](https://lechehebdjaafar.pythonanywhere.com/)
+[![MasterHead](https://i.ibb.co/Q9SFNjD/200.gif)](https://lechehebdjaafar.pythonanywhere.com/)
+[![MasterHead](https://i.ibb.co/Q9SFNjD/200.gif)](https://lechehebdjaafar.pythonanywhere.com/)
+
 
 <p align='center'> <a href="https://committers.top/algeria#abdelillahbel"><img src="https://img.shields.io/badge/Ranked-1st-000?style=for-the-badge&logo=sharp&logoColor=%23000000" alt="Ranked - 1st"></a> </p>
 

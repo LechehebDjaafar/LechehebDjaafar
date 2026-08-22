@@ -98,7 +98,7 @@ OPEN: innovative products, automation, cross-platform tools, and security projec
 <!-- BLOG-POST-LIST:END --> <details>
 <summary><strong>▸ Article feed setup</strong></summary>
 
-This panel is ready for any RSS-compatible blog, Dev.to feed, YouTube feed, or personal website. Replace `YOUR_RSS_FEED_URL` in the companion workflow with your real feed URL; GitHub Actions will refresh the list once per day and on demand.
+This panel is ready for any RSS-compatible blog, Dev.to feed, YouTube feed, or personal website. Add a repository variable named `BLOG_RSS_URL` under **Settings → Secrets and variables → Actions → Variables**; GitHub Actions will refresh the list once per day and on demand.
 
 </details>
 
@@ -106,8 +106,7 @@ This panel is ready for any RSS-compatible blog, Dev.to feed, YouTube feed, or p
 
 <p align="center">
 <img src="https://img.shields.io/badge/TERMINAL%20SESSION-READ--ONLY-0D1117?style=for-the-badge&logo=gnubash&logoColor=67E8F9" alt="Read-only terminal session" />
-</p> <details open>
-<summary><strong>▸ Open terminal session</strong></summary>
+</p>
 
 ```
 visitor@lecheheb:~$ help
@@ -127,6 +126,11 @@ visitor@lecheheb:~$ status
 visitor@lecheheb:~$ connect --ready
 Awaiting your idea...
 ```
+
+<details>
+<summary><strong>▸ Open terminal notes</strong></summary>
+
+This is a visual, read-only terminal interface inside a GitHub README. GitHub does not execute JavaScript or arbitrary commands inside README files, so the terminal is intentionally visible as a cinematic presentation rather than a real shell. Use the links in the Showcase section to open the actual projects.
 
 </details>
 
@@ -281,6 +285,8 @@ My work sits at the intersection of **software engineering, artificial intellige
 
 ### Contribution constellation
 
+> **Important:** the snake animation appears only after the `snake.yml` workflow completes successfully and publishes the generated files to the `output` branch.
+
 <p align="center">
 <img src="https://img.shields.io/badge/SNAKE%20ARCADE-CONTRIBUTION%20MODE-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Snake arcade contribution mode" />
 </p> <p align="center">
@@ -291,7 +297,7 @@ My work sits at the intersection of **software engineering, artificial intellige
   </picture>
 </p> <p align="center">
   <a href="https://github.com/Platane/snk">
-    <img src="https://github.com/LechehebDjaafar/LechehebDjaafar/raw/output/github-contribution-grid-snake.gif" alt="Playable-style animated contribution snake" width="100%" />
+    <img src="https://raw.githubusercontent.com/LechehebDjaafar/LechehebDjaafar/output/github-contribution-grid-snake.gif" alt="Playable-style animated contribution snake" width="100%" />
   </a>
 </p> <p align="center"><sub>Snake Arcade: the animation consumes your contribution grid as a neon trail. Click it to inspect the generator.</sub></p> <details>
 <summary><strong>▸ Enable the animated contribution snake</strong></summary>
@@ -322,8 +328,9 @@ jobs:
             dist/github-contribution-grid-snake.gif?color_snake=67E8F9&color_dots=0D1117,312E81,7C3AED,06B6D4,F59E0B
 
       - name: Publish animation
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: crazy-max/ghaction-github-pages@v5
         with:
+          target_branch: output
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

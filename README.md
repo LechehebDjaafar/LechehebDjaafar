@@ -30,6 +30,8 @@
 | `04` | [Operating System](#-operating-system) | How I approach building software |
 | `05` | [Connection Channel](#-connect) | Social links and collaboration routes |
 | `06` | [Transmission Log](#-transmission-log) | Expandable notes, commands, and extras |
+| `07` | [Neon Showcase](#-neon-showcase-deck) | Featured repositories and latest article feed |
+| `08` | [Interactive Terminal](#-interactive-terminal) | Read-only terminal and open-code panels |
 
 <details>
 <summary><strong>▸ Open the quick command panel</strong></summary>
@@ -46,6 +48,128 @@ Python • Full-Stack Engineering • AI/Data • Cybersecurity
 
 $ collaboration --mode
 OPEN: innovative products, automation, cross-platform tools, and security projects
+```
+
+</details>
+
+## ◈ Neon Showcase Deck
+
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,45:312E81,100:06B6D4&height=42&text=FEATURED%20SIGNALS&fontColor=67E8F9&fontSize=18&animation=fadeIn" width="100%" alt="Featured signals neon banner" />
+</p> <table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚡ local-ai-hub</h3>
+      <p>An interactive guide for finding local AI models that match your hardware, plus a comparison of AI coding agents.</p>
+      <p><a href="https://lechehebdjaafar.github.io/local-ai-hub/"><strong>OPEN LIVE DEMO ↗</strong></a> · <a href="https://github.com/LechehebDjaafar/local-ai-hub"><strong>SOURCE CODE</strong></a></p>
+      <p><img src="https://img.shields.io/badge/HTML-0D1117?style=flat-square&logo=html5&logoColor=E34F26" alt="HTML" /> <img src="https://img.shields.io/badge/AI%20TOOLS-7C3AED?style=flat-square&logo=openai&logoColor=white" alt="AI tools" /></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>♞ fenrix</h3>
+      <p>A modern high-performance UCI chess engine, presented as a focused engineering experiment.</p>
+      <p><a href="https://github.com/LechehebDjaafar/fenrix"><strong>OPEN REPOSITORY ↗</strong></a></p>
+      <p><img src="https://img.shields.io/badge/ENGINE-C7D2FE?style=flat-square&labelColor=0D1117" alt="Engine" /> <img src="https://img.shields.io/badge/CHESS-06B6D4?style=flat-square&labelColor=0D1117" alt="Chess" /></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🃏 blackjackai</h3>
+      <p>A compact Python project exploring game logic and AI-flavored decision systems.</p>
+      <p><a href="https://github.com/LechehebDjaafar/blackjackai"><strong>OPEN REPOSITORY ↗</strong></a></p>
+      <p><img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB" alt="Python" /></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>♣ Texas_Holdem</h3>
+      <p>A Python card-game build with a clean, focused scope and room for future expansion.</p>
+      <p><a href="https://github.com/LechehebDjaafar/Texas_Holdem"><strong>OPEN REPOSITORY ↗</strong></a></p>
+      <p><img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB" alt="Python" /></p>
+    </td>
+  </tr>
+</table>
+
+### Live article feed
+
+<p align="center">
+<img src="https://img.shields.io/badge/TRANSMISSION-LIVE%20RSS%20FEED-06B6D4?style=for-the-badge&logo=rss&logoColor=white" alt="Live RSS feed" />
+</p> <!-- BLOG-POST-LIST:START -->
+
+- 📡 Add your RSS feed URL to `.github/workflows/blog-post-workflow.yml` to populate this panel automatically.
+
+<!-- BLOG-POST-LIST:END --> <details>
+<summary><strong>▸ Article feed setup</strong></summary>
+
+This panel is ready for any RSS-compatible blog, Dev.to feed, YouTube feed, or personal website. Replace `YOUR_RSS_FEED_URL` in the companion workflow with your real feed URL; GitHub Actions will refresh the list once per day and on demand.
+
+</details>
+
+## ◈ Interactive Terminal
+
+<p align="center">
+<img src="https://img.shields.io/badge/TERMINAL%20SESSION-READ--ONLY-0D1117?style=for-the-badge&logo=gnubash&logoColor=67E8F9" alt="Read-only terminal session" />
+</p> <details open>
+<summary><strong>▸ Open terminal session</strong></summary>
+
+```
+visitor@lecheheb:~$ help
+
+  about       show operator profile
+  arsenal     inspect the technology stack
+  projects    open featured repositories
+  articles    stream the latest article feed
+  connect     open collaboration channels
+  snake       launch the contribution arcade
+
+visitor@lecheheb:~$ status
+[ ONLINE ] Python / AI / Full-Stack / Cybersecurity
+[ SIGNAL ] stable
+[ MODE   ] building in public
+
+visitor@lecheheb:~$ connect --ready
+Awaiting your idea...
+```
+
+</details>
+
+### Open code explorer
+
+<details>
+<summary><strong>▸ profile.py — the operator module</strong></summary>
+
+```python
+class LechehebDjaafar:
+    location = "Algeria"
+    focus = ["Python", "AI", "Full-Stack", "Cybersecurity"]
+    runtime = "curiosity + Algerian coffee"
+
+    def build(self, idea: str ) -> str:
+        return f"{idea} -> useful, secure, maintainable software"
+
+    def collaborate(self) -> bool:
+        return True
+```
+
+</details> <details>
+<summary><strong>▸ mission.py — execution protocol</strong></summary>
+
+```python
+pipeline = [
+    "discover the real problem",
+    "design the smallest useful system",
+    "build with readable code",
+    "test, secure, and document",
+    "ship, observe, improve",
+]
+```
+
+</details> <details>
+<summary><strong>▸ system.log — latest signal</strong></summary>
+
+```
+[OK] Profile interface loaded
+[OK] Neon showcase connected
+[OK] Article feed awaiting RSS source
+[OK] Contribution arcade configured
+[READY] Collaboration channel open
 ```
 
 </details>
@@ -158,12 +282,18 @@ My work sits at the intersection of **software engineering, artificial intellige
 ### Contribution constellation
 
 <p align="center">
-<picture>
+<img src="https://img.shields.io/badge/SNAKE%20ARCADE-CONTRIBUTION%20MODE-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Snake arcade contribution mode" />
+</p> <p align="center">
+  <picture>
     <source media="(prefers-color-scheme: dark )" srcset="https://raw.githubusercontent.com/LechehebDjaafar/LechehebDjaafar/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light )" srcset="https://raw.githubusercontent.com/LechehebDjaafar/LechehebDjaafar/output/github-contribution-grid-snake.svg" />
     <img src="https://raw.githubusercontent.com/LechehebDjaafar/LechehebDjaafar/output/github-contribution-grid-snake.svg" alt="Animated contribution snake" width="100%" />
   </picture>
-</p> <details>
+</p> <p align="center">
+  <a href="https://github.com/Platane/snk">
+    <img src="https://github.com/LechehebDjaafar/LechehebDjaafar/raw/output/github-contribution-grid-snake.gif" alt="Playable-style animated contribution snake" width="100%" />
+  </a>
+</p> <p align="center"><sub>Snake Arcade: the animation consumes your contribution grid as a neon trail. Click it to inspect the generator.</sub></p> <details>
 <summary><strong>▸ Enable the animated contribution snake</strong></summary>
 
 Create `.github/workflows/snake.yml` in the profile repository and add the following workflow. It will generate the animation in the `output` branch.
@@ -189,6 +319,7 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.gif?color_snake=67E8F9&color_dots=0D1117,312E81,7C3AED,06B6D4,F59E0B
 
       - name: Publish animation
         uses: crazy-max/ghaction-github-pages@v4

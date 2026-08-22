@@ -18,6 +18,29 @@
   <a href="#-connect">Connect</a>
 </p> <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:06b6d4,50:7c3aed,100:0f172a&height=8&section=header" width="100%" alt="Neon gradient divider" />
+</p> <p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=15&duration=2200&pause=700&color=A78BFA&center=true&vCenter=true&width=850&lines=%5B+SYSTEM+ONLINE+%5D;%5B+NEON+SIGNAL+STABLE+%5D;%5B+BUILDING+THE+NEXT+USEFUL+THING+%5D" alt="Animated system status" />
+</p> <p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:312E81,100:06B6D4&height=3&section=header&reversal=true" width="100%" alt="Animated neon scanline" />
+</p>
+
+## ◈ Neon Control Room
+
+<table>
+<tr>
+    <td align="center" width="25%"><strong>◉ ONLINE</strong>  
+<sub>Core systems</sub></td>
+    <td align="center" width="25%"><strong>◈ BUILDING</strong>  
+<sub>New experiments</sub></td>
+    <td align="center" width="25%"><strong>⌁ LEARNING</strong>  
+<sub>AI + security</sub></td>
+    <td align="center" width="25%"><strong>↗ OPEN</strong>  
+<sub>Collaboration</sub></td>
+  </tr>
+</table> <p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=LechehebDjaafar&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" width="100%" alt="GitHub achievements" />
+</p> <p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:06B6D4,50:7C3AED,100:0D1117&height=8&section=footer&animation=twinkling" width="100%" alt="Animated neon divider" />
 </p>
 
 ## ◈ Navigation
@@ -32,6 +55,7 @@
 | `06` | [Transmission Log](#-transmission-log) | Expandable notes, commands, and extras |
 | `07` | [Neon Showcase](#-neon-showcase-deck) | Featured repositories and latest article feed |
 | `08` | [Interactive Terminal](#-interactive-terminal) | Read-only terminal and open-code panels |
+| `09` | [Neon Control Room](#-neon-control-room) | Animated status, achievements, and signal layers |
 
 <details>
 <summary><strong>▸ Open the quick command panel</strong></summary>
@@ -127,10 +151,16 @@ visitor@lecheheb:~$ connect --ready
 Awaiting your idea...
 ```
 
-<details>
+### Clickable command deck
+
+<p align="center"><sub>Select a command to open its destination. This is the safe GitHub-compatible version of an interactive terminal.</sub></p> <details>
+<summary><strong>visitor@lecheheb:~$ open local-ai-hub</strong></summary> <p><a href="https://lechehebdjaafar.github.io/local-ai-hub/"><img src="https://img.shields.io/badge/EXECUTE%20%E2%86%92-OPEN%20LIVE%20DEMO-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Open local AI Hub live demo" /></a></p> </details> <details>
+<summary><strong>visitor@lecheheb:~$ open projects</strong></summary> <p><a href="https://github.com/LechehebDjaafar?tab=repositories"><img src="https://img.shields.io/badge/EXECUTE%20%E2%86%92-BROWSE%20REPOSITORIES-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Browse repositories" /></a></p> </details> <details>
+<summary><strong>visitor@lecheheb:~$ connect --linkedin</strong></summary> <p><a href="https://www.linkedin.com/in/lecheheb-djaafar-226594348/"><img src="https://img.shields.io/badge/EXECUTE%20%E2%86%92-OPEN%20LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Open LinkedIn" /></a></p> </details> <details>
+<summary><strong>visitor@lecheheb:~$ launch snake</strong></summary> <p><a href="#-mission-control"><img src="https://img.shields.io/badge/EXECUTE%20%E2%86%92-LAUNCH%20SNAKE%20ARCADE-67E8F9?style=for-the-badge&logo=github&logoColor=0D1117" alt="Launch snake arcade" /></a></p> </details> <details>
 <summary><strong>▸ Open terminal notes</strong></summary>
 
-This is a visual, read-only terminal interface inside a GitHub README. GitHub does not execute JavaScript or arbitrary commands inside README files, so the terminal is intentionally visible as a cinematic presentation rather than a real shell. Use the links in the Showcase section to open the actual projects.
+This is a visual, read-only terminal interface inside a GitHub README. GitHub does not execute JavaScript or arbitrary commands inside README files, so the terminal is intentionally visible as a cinematic presentation rather than a real shell. The command deck above provides safe clickable routes to the actual projects, repositories, LinkedIn profile, and Snake Arcade.
 
 </details>
 

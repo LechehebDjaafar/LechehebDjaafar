@@ -1,0 +1,26 @@
+name: Update latest articles
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme-with-blog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Update latest articles in README
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          # Replace this with your real RSS/Atom feed URL.
+          # Examples: Dev.to, WordPress, YouTube, or a personal website.
+          feed_list: "YOUR_RSS_FEED_URL"
+          max_post_count: 5
+          readme_path: ./README.md
+          template: "- 📝 [$title]($url) — $date"
